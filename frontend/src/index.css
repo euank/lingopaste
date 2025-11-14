@@ -40,10 +40,17 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2rem;
   flex: 1;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
 }
 
 button {

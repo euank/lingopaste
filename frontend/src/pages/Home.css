@@ -1,5 +1,5 @@
 .home {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -48,9 +48,9 @@
 
 .content-input {
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.125rem;
   resize: vertical;
-  min-height: 300px;
+  min-height: 400px;
 }
 
 .char-counter {
@@ -93,4 +93,19 @@
 
 .submit-btn:disabled {
   background-color: var(--gray-300);
+}
+
+@media (max-width: 768px) {
+  .home-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .paste-form {
+    padding: 1rem;
+  }
+  
+  .content-input {
+    font-size: 1rem;
+    min-height: 300px;
+  }
 }
