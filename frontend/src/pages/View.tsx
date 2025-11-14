@@ -95,15 +95,26 @@ function View() {
               disabled={translating}
             >
               <option value="en">English</option>
-              <option value="es">Spanish</option>
-              <option value="fr">French</option>
-              <option value="de">German</option>
-              <option value="ja">Japanese</option>
-              <option value="zh">Chinese</option>
-              <option value="pt">Portuguese</option>
-              <option value="ru">Russian</option>
-              <option value="ko">Korean</option>
-              <option value="it">Italian</option>
+              <option value="es">Español</option>
+              <option value="fr">Français</option>
+              <option value="de">Deutsch</option>
+              <option value="ja">日本語</option>
+              <option value="zh">中文</option>
+              <option value="pt">Português</option>
+              <option value="ru">Русский</option>
+              <option value="ko">한국어</option>
+              <option value="it">Italiano</option>
+              <option value="ar">العربية</option>
+              <option value="hi">हिन्दी</option>
+              <option value="nl">Nederlands</option>
+              <option value="pl">Polski</option>
+              <option value="tr">Türkçe</option>
+              <option value="vi">Tiếng Việt</option>
+              <option value="th">ไทย</option>
+              <option value="sv">Svenska</option>
+              <option value="da">Dansk</option>
+              <option value="fi">Suomi</option>
+              <option value="no">Norsk</option>
             </select>
             {translating && <span className="translating">Translating...</span>}
           </div>
