@@ -2,6 +2,8 @@
 
 A web application for sharing text snippets with built-in LLM-based translation capabilities.
 
+Note, this project is almost entirely vibe coded. A human is reviewing the code.
+
 ## Features
 
 - Share text snippets via links
@@ -144,4 +146,4 @@ kubectl apply -f k8s/
 
 ## License
 
-Proprietary
+AGPL
