@@ -11,8 +11,7 @@
 .env.credentials
 
 # Binaries
-server
-/cmd/server/server
+/server
 
 # IDE
 .vscode
