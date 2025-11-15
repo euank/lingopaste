@@ -145,6 +145,15 @@ function View() {
       </div>
 
       <div className="paste-content">
+        {translating && (
+          <div className="translating-overlay">
+            <div className="translating-spinner">
+              <div className="spinner"></div>
+              <p>Translating...</p>
+            </div>
+          </div>
+        )}
+        
         {viewMode === 'translation' && (
           <div className="text-box">
             {currentTranslation}
