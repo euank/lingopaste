@@ -18,9 +18,12 @@ spec:
         app: lingopaste
         component: backend
     spec:
+      # Uncomment if using private GitHub Container Registry
+      # imagePullSecrets:
+      # - name: ghcr-login-secret
       containers:
       - name: backend
-        image: lingopaste-backend:latest
+        image: ghcr.io/euank/lingopaste.com/backend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -75,9 +78,12 @@ spec:
         app: lingopaste
         component: frontend
     spec:
+      # Uncomment if using private GitHub Container Registry
+      # imagePullSecrets:
+      # - name: ghcr-login-secret
       containers:
       - name: frontend
-        image: lingopaste-frontend:latest
+        image: ghcr.io/euank/lingopaste.com/frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80

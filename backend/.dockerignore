@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+
+# Environment files
+.env
+.env.local
+.env.credentials
+
+# Binaries
+server
+/cmd/server/server
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+*_test.go
+
+# Logs
+*.log
