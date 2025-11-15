@@ -3,8 +3,7 @@
 *.dll
 *.so
 *.dylib
-server
-/cmd/server/server
+/server
 
 # IDE
 .vscode/
